@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 #region Additional Namespaces
 using System.Data.Entity;
+using ChinookSytem.Data.Entities;
 #endregion
 namespace ChinookSystem.DAL
 {
@@ -21,5 +22,9 @@ namespace ChinookSystem.DAL
         {
 
         }
+        //setup all Dbset properties once Entity classer are created
+        public DbSet<Artist> Artists { get; set; }
+        public DbSet<Album> Albums { get; set; }
+        public DbSet<Track> Tracks { get; set; }
     }
 }
