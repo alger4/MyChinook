@@ -1,41 +1,36 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-
-    <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+<div class="jumbotron">
+    <h1>Chinnok Music Store</h1>
+    <p class="lead">
+        The Chinook Music Store provides customers to create custom playlists from a wide 
+        selection of music titles.Titles can be selec by Artist ,Genre , Album, or Media type.
+    </p>
+    <p>
+        Future features will include moives and other video types
+        and the ablity to request media for users to add to their custom playlists.
+    </p>
     </div>
-
     <div class="row">
         <div class="col-md-4">
-            <h2>Getting started</h2>
+            <h1>Setting Stared</h1>
             <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
+                To be able to create your playlist you must register as a customer
             </p>
         </div>
         <div class="col-md-4">
-            <h2>Get more libraries</h2>
+            <h1>Request Music</h1>
             <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
+                This feature will come in the next version
             </p>
         </div>
         <div class="col-md-4">
-            <h2>Web Hosting</h2>
+            <h1>More Info</h1>
             <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
+                You can always send us a message
             </p>
         </div>
     </div>
+
 </asp:Content>
